@@ -5,7 +5,7 @@ let k = document.querySelector('.open')
 
 function red() {
     let r = document.querySelector('.body')
-    r.style.background = 'url(../papka/img/img1.jpg) no-repeat center/100%'
+    r.style.background = 'url(https://envaki.github.io/img/img1.jpg) no-repeat center/100%'
     k.style.border = '4px solid red'
     k.style.color = 'red'
     x.style.background = "green"
@@ -20,7 +20,7 @@ e.addEventListener("click", green);
 
 function green() {
     let t = document.querySelector('.body')
-    t.style.background = 'url(../papka/img/img2.jpg) no-repeat center/100%'
+    t.style.background = 'url(https://envaki.github.io/img/img2.jpg) no-repeat center/100%'
     k.style.border = '4px solid green'
     k.style.color = 'green'
     e.style.background = "green"
