@@ -10,6 +10,7 @@
     background: red;
 }
 .body {
+    background: url(https://envaki.github.io/img/onbody.jpg) 0% 0% / cover no-repeat;
   margin: 0;
 width: 100vh;
 height: 100vh;
