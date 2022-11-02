@@ -38,7 +38,7 @@ function zeroNum() {
     number++;
     event.target.textContent = number;
     pidrah()
-    if (zero.textContent==5) {
+    if (zero.textContent==8) {
         zero.innerHTML="DONE";
         zero.disabled = true;
         console.log("done")
