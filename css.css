@@ -44,7 +44,7 @@ h1 {
     background-position-x: right;
 }
 .home {
-    background: url(./dist/img/homeicon.png) no-repeat;
+    background: url(./img/homeicon.png) no-repeat;
     background-size: contain;
     background-position-x: right;
 }
@@ -59,7 +59,7 @@ h1 {
     background-position-x: right;
 }
 .secret {
-    background: url(./dist/img/ecret.png) no-repeat;
+    background: url(./img/ecret.png) no-repeat;
     background-size: contain;
     background-position-x: right;
 }
