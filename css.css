@@ -1,0 +1,128 @@
+.dody {
+    background: url(..//itcpmsd.github.io/img/fon-body.png) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    font-family: 'Poor Story', cursive;
+    background-position-x: center;
+}
+.section {
+    width: 1400px;
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+}
+.menubar {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+.menubarall {
+    background: url(..//itcpmsd.github.io/img/iticon.png) no-repeat;
+    background-size: contain;
+    background-position-x: left;
+    background-position-y: bottom;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.menubarall:hover {
+    color: aliceblue;
+    background: url(..//itcpmsd.github.io/img/iticon.png) no-repeat;
+    background-size: contain;
+    background-position-x: left;
+}
+h1 {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+.faq {
+    background: url(..//itcpmsd.github.io/img/faqicon.png) no-repeat;
+    background-size: contain;
+    background-position-x: right;
+}
+.home {
+    background: url(..//itcpmsd.github.io/img/homeicon.png) no-repeat;
+    background-size: contain;
+    background-position-x: right;
+}
+.best {
+    background: url(..//itcpmsd.github.io/img/best.png) no-repeat;
+    background-size: contain;
+    background-position-x: -60px;
+}
+.info {
+    background: url(..//itcpmsd.github.io/img/info.png) no-repeat;
+    background-size: contain;
+    background-position-x: right;
+}
+.secret {
+    background: url(..//itcpmsd.github.io/img/ecret.png) no-repeat;
+    background-size: contain;
+    background-position-x: right;
+}
+.mem {
+    background: url(..//itcpmsd.github.io/img/mem.png) no-repeat;
+    background-size: contain;
+    background-position-x: right;
+}
+.idea {
+    background: url(..//itcpmsd.github.io/img/ideabos.png) no-repeat;
+    background-size: contain;
+    background-position-x: right;
+}
+.content {
+    width: 100%;
+    border: 2px solid;
+    margin-left: 10px;
+    position: relative;
+}
+.contentbar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: none;
+}
+.contentbar-active {
+    display: block;
+    color: #cc0066;
+    font-size: 50px;
+}
+.line {
+    height: 4px;
+    width: 100%;
+    background: #000;
+}
+.icon-it {
+ 
+}
+.menubarall.active {
+    color: #cc0066;
+    background: url(..//itcpmsd.github.io/img/strelko.png) no-repeat;
+    background-size: contain;
+    background-position-x: right;
+}
+
+.secret-content-all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secret-section-one {
+ display: grid;
+}
+.secret-section-two {
+
+}
+.content-secret_one {
+    background: url(..//itcpmsd.github.io/img/fac.png) no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    background-color: #000;
+}
