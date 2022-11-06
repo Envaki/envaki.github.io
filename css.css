@@ -125,3 +125,27 @@ h1 {
     background-position-x: right;
     background-color: #000;
 }
+.content-best {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.content-best-one {
+    width: 50%;
+    height: 100%;
+}
+.content-best-two {
+    width: 50%;
+    height: 100%;
+}
+.content-best img {
+    height: 100%;
+    width: 100%;
+}
+.content-dest-zagolovok {
+    margin: 0 auto;
+}
+.content-best_one {
+display: flex;
+}
