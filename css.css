@@ -31,7 +31,7 @@
 }
 .menubarall:hover {
     color: aliceblue;
-    background: url(..//itcpmsd.github.io/img/iticon.png) no-repeat;
+    background: url(https://envaki.github.io/img/iticon.png) no-repeat;
     background-size: contain;
     background-position-x: left;
 }
@@ -40,37 +40,37 @@ h1 {
     font-size: 30px;
 }
 .faq {
-    background: url(..//itcpmsd.github.io/img/faqicon.png) no-repeat;
+    background: url(https://envaki.github.io/img/faqicon.png) no-repeat;
     background-size: contain;
     background-position-x: right;
 }
 .home {
-    background: url(..//itcpmsd.github.io/img/homeicon.png) no-repeat;
+    background: url(https://envaki.github.io/homeicon.png) no-repeat;
     background-size: contain;
     background-position-x: right;
 }
 .best {
-    background: url(..//itcpmsd.github.io/img/best.png) no-repeat;
+    background: url(https://envaki.github.io/img/best.png) no-repeat;
     background-size: contain;
     background-position-x: -60px;
 }
 .info {
-    background: url(..//itcpmsd.github.io/img/info.png) no-repeat;
+    background: url(https://envaki.github.io/img/info.png) no-repeat;
     background-size: contain;
     background-position-x: right;
 }
 .secret {
-    background: url(..//itcpmsd.github.io/img/ecret.png) no-repeat;
+    background: url(https://envaki.github.io/ecret.png) no-repeat;
     background-size: contain;
     background-position-x: right;
 }
 .mem {
-    background: url(..//itcpmsd.github.io/img/mem.png) no-repeat;
+    background: url(https://envaki.github.io/img/mem.png) no-repeat;
     background-size: contain;
     background-position-x: right;
 }
 .idea {
-    background: url(..//itcpmsd.github.io/img/ideabos.png) no-repeat;
+    background: url(https://envaki.github.io/img/ideabos.png) no-repeat;
     background-size: contain;
     background-position-x: right;
 }
@@ -104,7 +104,7 @@ h1 {
 }
 .menubarall.active {
     color: #cc0066;
-    background: url(..//itcpmsd.github.io/img/strelko.png) no-repeat;
+    background: url(https://envaki.github.io/img/strelko.png) no-repeat;
     background-size: contain;
     background-position-x: right;
 }
@@ -121,7 +121,7 @@ h1 {
 
 }
 .content-secret_one {
-    background: url(..//itcpmsd.github.io/img/fac.png) no-repeat;
+    background: url(https://envaki.github.io/img/fac.png) no-repeat;
     background-size: contain;
     background-position-x: right;
     background-color: #000;
