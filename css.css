@@ -48,11 +48,13 @@ h1 {
     background-size: contain;
     background-position-x: right;
 }
+/*
 .best {
     background: url(https://envaki.github.io/img/best.png) no-repeat;
     background-size: contain;
     background-position-x: -60px;
 }
+*/
 .info {
     background: url(https://envaki.github.io/img/info.png) no-repeat;
     background-size: contain;
