@@ -1,5 +1,5 @@
 .dody {
-    background: url(..//itcpmsd.github.io/img/fon-body.png) no-repeat;
+    background: url(https://github.com/Envaki/envaki.github.io/img/fon-body.png) no-repeat;
     background-size: cover;
     margin: 0 auto;
     font-family: 'Poor Story', cursive;
@@ -19,7 +19,7 @@
     padding: 10px;
 }
 .menubarall {
-    background: url(..//itcpmsd.github.io/img/iticon.png) no-repeat;
+    background: url(envaki.github.io/img/iticon.png) no-repeat;
     background-size: contain;
     background-position-x: left;
     background-position-y: bottom;
