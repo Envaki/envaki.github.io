@@ -19,7 +19,6 @@
     padding: 10px;
 }
 .menubarall {
-    background: url(https://envaki.github.io/img/iticon.png) no-repeat;
     background-size: contain;
     background-position-x: left;
     background-position-y: bottom;
@@ -99,7 +98,6 @@ h1 {
 }
 .menubarall.active {
     color: #cc0066;
-    background: url(https://envaki.github.io/img/strelko.png) no-repeat;
     background-size: contain;
     background-position-x: right;
 }
