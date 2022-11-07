@@ -144,3 +144,25 @@ h1 {
 .content-best_one {
 display: flex;
 }
+.content-vidguk h3 {
+    text-align: center;
+    margin: 0;
+}
+.prof_img img {
+    border-radius: 50%;
+}
+.vidguk-comentary {
+    display: flex;
+    flex-wrap: wrap;
+}
+.prof-vidguk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vidguk-comentary p {
+    margin: 0;
+}
+.footer {
+ border: 2px solid black;
+}
