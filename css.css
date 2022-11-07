@@ -35,8 +35,9 @@
     background-position-x: left;
 }
 h1 {
-    margin-bottom: 0;
+    margin: 0;
     font-size: 30px;
+    text-align: center;
 }
 .faq {
     background: url(https://envaki.github.io/img/faqicon.png) no-repeat;
@@ -121,13 +122,10 @@ h1 {
     background-color: #000;
 }
 .content-best {
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
     height: 100%;
 }
 .content-best-one {
-    width: 50%;
     height: 100%;
 }
 .content-best-two {
@@ -143,26 +141,45 @@ h1 {
 }
 .content-best_one {
 display: flex;
+height: 100%;
 }
 .content-vidguk h3 {
     text-align: center;
     margin: 0;
 }
+.prof_img {
+    height: 100%;
+    width: 25%;
+}
 .prof_img img {
-    border-radius: 50%;
+    border: 2px solid black;
 }
 .vidguk-comentary {
-    display: flex;
-    flex-wrap: wrap;
+    height: 100%;
+}
+.content-vidguk_kom {
+    height: 100%;
 }
 .prof-vidguk {
     display: flex;
     align-items: center;
-    justify-content: center;
+    height: 23%;
+    border: 2px solid black;
+}
+.prof_vidguk {
+    width: 70%;
+    margin-left: 10px;
 }
 .vidguk-comentary p {
     margin: 0;
+    line-height: 1;
 }
 .footer {
  border: 2px solid black;
+}
+.prof_zag {
+    font-size: 20px;
+}
+.prof-zagolovok {
+    margin: 0;
 }
