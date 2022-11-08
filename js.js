@@ -25,6 +25,7 @@ function onTabsClick(item) {
     }
   })
 }
+
 document.querySelector('.menubarall').click();
 
 
@@ -44,3 +45,16 @@ function parolInput() {
   }
 }
 
+const btnColorOne = document.querySelector('.color-btn-one')
+const btnColorTwo = document.querySelector('.color-btn-two')
+const btnColorThre = document.querySelector('.color-btn-thre')
+
+btnColorOne.addEventListener('click', colorOne)
+btnColorTwo.addEventListener('click', colorOne)
+btnColorThre.addEventListener('click', colorOne)
+
+const bodyBg = document.querySelector('.dody')
+
+function colorOne() {
+  bodyBg.classList.add('body-bg')
+}
