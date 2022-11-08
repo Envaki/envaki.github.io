@@ -47,14 +47,32 @@ function parolInput() {
 
 const btnColorOne = document.querySelector('.color-btn-one')
 const btnColorTwo = document.querySelector('.color-btn-two')
-const btnColorThre = document.querySelector('.color-btn-thre')
+
 
 btnColorOne.addEventListener('click', colorOne)
-btnColorTwo.addEventListener('click', colorOne)
-btnColorThre.addEventListener('click', colorOne)
+btnColorTwo.addEventListener('click', colorTwo)
 
-const bodyBg = document.querySelector('.dody')
+
+const bodyBg = document.querySelectorAll('.color-all')
 
 function colorOne() {
-  bodyBg.classList.add('body-bg')
+  bodyBg.forEach(function(elem) {
+    elem.classList.add('color-alll')
+  });
 }
+
+function colorTwo() {
+  bodyBg.forEach(function(elem) {
+    elem.classList.remove('color-alll')
+  });
+}
+
+
+
+/* function colorTwo() {
+  bodyBg.forEach(function(elem) {
+    elem.style.background = "#000"
+  });
+}
+*/
+
