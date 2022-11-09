@@ -53,7 +53,7 @@ btnColorOne.addEventListener('click', colorOne)
 btnColorTwo.addEventListener('click', colorTwo)
 
 
-const bodyBg = document.querySelectorAll('.color-all')
+const bodyBg = document.querySelectorAll('.color-all, .dody')
 
 function colorOne() {
   bodyBg.forEach(function(elem) {
