@@ -159,6 +159,7 @@ h1 {
     overflow: auto;
     background: #eaeaea;
     border: 2px solid black;
+    box-sizing: border-box;
 }
 .contentbar-active {
     display: block;
@@ -176,6 +177,7 @@ h1 {
 .title-color {
     display: flex;
     align-items: center;
+    display: none;
 }
 .menubarall.active {
     color: red;
