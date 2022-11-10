@@ -91,9 +91,44 @@ h1 {
     background-size: contain;
     background-position-x: right;
 }
+
+/* All class MEM Start */
+
 .mem {
    
 }
+.mem-osnova {
+    display: flex;
+    height: 100%;
+}
+.mem-img {
+    width: 100%;
+    height: 100%;
+}
+.mem-img img {
+    height: 100%;
+    width: 100%;
+}
+.mem-ppl-info {
+
+}
+.mem-text {
+
+}
+.mem-text-p {
+
+}
+.content-mem-one {
+
+}
+.mem-ppl-info {
+
+}
+.text-ppl_info {
+    
+}
+
+/* All class MEM END */
 .idea {
     background: url(https://envaki.github.io/img/ideabos.png) no-repeat;
     background-size: contain;
