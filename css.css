@@ -100,6 +100,7 @@ h1 {
 .mem-osnova {
     display: flex;
     height: 100%;
+    flex-direction: column;
 }
 .mem-img {
     width: 100%;
@@ -119,13 +120,13 @@ h1 {
 
 }
 .content-mem-one {
-
+    display: flex;
 }
 .mem-ppl-info {
 
 }
 .text-ppl_info {
-    
+
 }
 
 /* All class MEM END */
