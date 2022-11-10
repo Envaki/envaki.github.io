@@ -52,10 +52,9 @@ const btnColorTwo = document.querySelector('.color-btn-two')
 btnColorOne.addEventListener('click', colorOne)
 btnColorTwo.addEventListener('click', colorTwo)
 
+const bodyBg = document.querySelectorAll(':scope .section .dody')
 
-const bodyBg = document.querySelectorAll('.section')
-
-
+console.log(bodyBg);
 
 
 function colorOne() {
