@@ -92,9 +92,7 @@ h1 {
     background-position-x: right;
 }
 .mem {
-    background: url(https://envaki.github.io/img/mem.png) no-repeat;
-    background-size: contain;
-    background-position-x: right;
+   
 }
 .idea {
     background: url(https://envaki.github.io/img/ideabos.png) no-repeat;
