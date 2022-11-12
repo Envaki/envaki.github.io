@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0 auto;
     box-sizing: border-box;
+    line-height: 1;
+    font-weight: normal;
 }
 .dody {
     background: #eaeaea;
@@ -77,10 +79,25 @@ h1 {
     font-size: 30px;
     text-align: center;
 }
+.text-ppl-h {
+    font-size: 1.9em;
+    border-bottom: 3px solid;
+}
+.text-ppl_info p {
+
+}
+.anonimus {
+    border-top: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
 .faq {
     background: url(https://envaki.github.io/img/faqicon.png) no-repeat;
     background-size: contain;
     background-position-x: right;
+}
+.center {
+    text-align: center;
 }
 .home {
     background: url(./img/homeicon.png) no-repeat;
@@ -104,22 +121,15 @@ h1 {
    
 }
 .mem-osnova {
-    display: flex;
-    flex-direction: column;
-    font-size: 10px;
+    font-size: 0.4em;
 }
 .mem-img {
-    width: 50%;
-    height: 50%;
+    
 }
 .mem-img img {
-    height: 100%;
-    width: 100%;
-}
-.mem-ppl-info {
- margin: 0;
- padding: 0;
- width: 100%;
+    height: 373px;
+    border: 2px solid black;
+    border-right: none;
 }
 .mem-text {
 
@@ -130,16 +140,16 @@ h1 {
 }
 .content-mem-one {
     display: flex;
+    margin: 20px;
 }
 .mem-ppl-info {
-
+ border: 2px solid black;
 }
 .text-ppl_info {
-    margin: 25px;
+    
 }
 .text-ppl_info p{
-    margin: 0;
-    padding: 0;
+    padding: 20px;
     font-size: 25px;
 }
 
@@ -151,7 +161,6 @@ h1 {
     display: flex;
     height: 100%;
     width: 100%;
-    flex-direction: column;
 }
 .img-content-one {
     height: 100%;
@@ -161,31 +170,41 @@ h1 {
     
 }
 .img-content {
-    height: 100%;
-    width: 100%;
+    height: 240px;
+    width: 340px;
 }
 .otzuv {
     width: 100%;
     display: flex;
-    margin-top: 20px;
     padding: 10px;
+    align-items: center;
+    border: 2px solid black;
 }
 .otzuv-one {
-    width: 60%;
-    border: 2px solid;
+    
+}
+.text-profi-it span {
+    font-size: 30px;
+} 
+.text-profi-p {
+    font-size: 0.4em;
 }
 .otzuv-two {
-    width: 60%;
     border: 2px solid;
+}
+.otzuv-two h3 {
+    font-size: 0.5em;
+    display: flex;
 }
 .otzuv img {
-    width: 100%;
-    height: 100%;
+    width: 75px;
+    height: 75px;
     border: 2px solid;
+    border-right: none;
 }
 .otzuv p {
-    margin: 10px;
-    border: 2px solid;
+    font-size: 0.3em;
+    padding: 10px;
 }
 
 .idea {
@@ -264,7 +283,7 @@ h1 {
     width: 50%;
     height: 100%;
 }
-.content-best img {
+.img-content-one {
     height: 100%;
     width: 100%;
 }
