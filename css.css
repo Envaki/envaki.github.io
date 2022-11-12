@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
 .dody {
     background: #eaeaea;
     background-size: cover;
@@ -139,6 +144,50 @@ h1 {
 }
 
 /* All class MEM END */
+
+
+
+.coment-one {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.img-content-one {
+    height: 100%;
+    width: 100%;
+}
+.text-content-two {
+    
+}
+.img-content {
+    height: 100%;
+    width: 100%;
+}
+.otzuv {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+}
+.otzuv-one {
+    width: 60%;
+    border: 2px solid;
+}
+.otzuv-two {
+    width: 60%;
+    border: 2px solid;
+}
+.otzuv img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+}
+.otzuv p {
+    margin: 10px;
+    border: 2px solid;
+}
+
 .idea {
     background: url(https://envaki.github.io/img/ideabos.png) no-repeat;
     background-size: contain;
