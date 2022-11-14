@@ -80,6 +80,8 @@ function colorTwo() {
 */
 
 
+/* КАНВАЗ Игра Мяч НАЧАЛО */
+
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 var width = canvas.width;
@@ -185,3 +187,82 @@ setInterval(function () {
 
   ctx.strokeRect(0, 0, width, height);
 }, 30);
+/* КАНВАЗ Игра Мяч Конец*/
+
+/*  Игра Клик по Квадрату */
+
+let vx; //Скорость по горизонтали
+let vy; // Скорость по вертикали
+let flag; // Флаг попадания в цель
+
+// Функция инициализации
+function init(){
+    flag=false;  //Сброс флага
+
+    lay.style.backgoundColor='orange'; // Цвет квадрата - оранжевый 
+
+    // Задаем случяйные координати для квадрата в пределах игрового поля
+    lay.style.top=Math.random()*450+"px";
+    lay.style.left=Math.random()*750+"px";
+    // Задаем случяйное значение и направление скоростей
+    vx=(Math.random()*10)-5;
+    vy=(Math.random()*10)-5;
+
+    move(); //Запуск игрового прцоеса
+}
+// Функция, реализирующяя перемещение квадрата 
+function move(){
+    // Если флаг установлен, то новый экземпляр функции не нужен
+    if (flag==true){
+        return
+    }
+    // Вспомагательные переменные с координатами квадрата
+    let x=lay.style.left+"px";
+    let y=lay.style.top+"px";
+    //  Случяйное изменение скоростей с 10% вероятностью
+
+    if (Math.random()*1000<10){
+        vx = Math.random()*10-5;
+        vy = Math.random()*10-5;
+    }
+    // Изменение координат
+    x=parseInt(x)+vx+"px";
+    y=parseInt(y)+vy+"px";
+    // Проверки на встречу с границей поля
+    if (x<=0){
+        x=0;
+        vx=-vx;
+    } 
+    if (x>=750){
+        x=750;
+        vx=-vx;
+    }
+    if (y<=0){
+        y=0;
+        vy=-vy;
+    }
+    if (y>=450){
+        y=450;
+        vy=-vy;
+    }
+    // Назначаем новые координати квадрату
+    lay.style.left=x+"px";
+    lay.style.top=y+"px";
+    // Вызов функции через 30мс
+    
+}
+setTimeout(move(), 1000);
+    // Функция, реагирующяя на попадания
+    function vis(){
+        // Увеличиваем счетчик попаданий
+        document.forms[0].Yes.value++;
+        // Устанавливаем флаг, чтобы не обрабативалась функция move()
+        flag=true;
+        //Меняем цвет квадрата
+        lay.innerHTML='ПОПАЛ';
+        //Через 400мс вновь запускаем игру
+        setTimeout(init(), 400)
+    }
+
+
+/* Игра Клик по Квадрату Конец */

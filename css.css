@@ -167,6 +167,32 @@ h1 {
 
 /* All class MEM END */
 
+/* Мишень Игра */
+#field {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 500px;
+    width: 800px;
+    background: yellow;
+}
+#lay {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 50px;
+    width: 50px;
+    background: orange;
+}
+#control {
+    position: absolute;
+    top: 0px;
+    left: 800px;
+    height: 500xp;
+    width: 200px;
+    background: green;
+}
+/* Мишень Игра Конец */
 
 
 .coment-one {
