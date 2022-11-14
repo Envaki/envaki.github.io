@@ -173,10 +173,14 @@ var keyActions = {
 };
 
 // Обработчик события keydown, будет вызван при каждом нажатии клавиши
-$("body").keydown(function (event) {
+let updet = document.querySelector(".dody");
+
+updet.addEventListener('keyup',(event) => {
   var action = keyActions[event.keyCode];
   ball.doAction(action);
 });
+
+
 
 // Функция анимации, вызывается раз в 30 мс
 setInterval(function () {

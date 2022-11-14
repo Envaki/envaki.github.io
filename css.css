@@ -166,7 +166,10 @@ h1 {
 }
 
 /* All class MEM END */
-
+#canvas {
+    height: 100%;
+    width: 100%;
+}
 /* Мишень Игра */
 #field {
     position: absolute;
