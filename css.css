@@ -67,12 +67,24 @@
     position: relative;
     box-shadow: 10px 10px 5px #a4a4a4;
     line-height: 1em;
+    -webkit-transition: width 0.5s, height 0.5s, -webkit-transform 0.5s;
+	transition: width 0.5s, height 0.5s, -webkit-transform 0.5s;
+	-o-transition: width 0.5s, height 0.5s, transform 0.5s;
+	transition: width 0.5s, height 0.5s, transform 0.5s;
+	transition: width 0.5s, height 0.5s, transform 0.5s, -webkit-transform 0.5s;
 }
 .menubarall:hover {
-    color: red;
-    background-size: contain;
-    background-position-x: left;
-    border: 2px solid black;
+      color: red;
+      background-size: contain;
+      background-position-x: left;
+      border: 2px solid black;
+      -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 15px 15px rgba(0,0,0,0.22);
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 15px 15px rgba(0,0,0,0.22);
+      transform: translateX(25px);
+      -webkit-transform: translateX(25px);
+      -moz-transform: translateX(25px);
+      -ms-transform: translateX(25px);
+      -o-transform: translateX(25px);
 }
 h1 {
     margin: 0;
@@ -253,6 +265,7 @@ h1 {
     background-position-x: right;
     border: 2px solid black;
     background: #eaeaea;
+    transform: translateX(25px);
 }
 
 .secret-content-all {
