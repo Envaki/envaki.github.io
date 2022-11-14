@@ -167,8 +167,9 @@ h1 {
 
 /* All class MEM END */
 #canvas {
-    height: 100%;
+    height: 97%;
     width: 100%;
+    padding: 10px;
 }
 /* Мишень Игра */
 #field {
