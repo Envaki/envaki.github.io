@@ -255,6 +255,10 @@ function move(){
     // Вызов функции через 30мс
     
 }
+let letsDanse = document.querySelector('#lay')
+
+letsDanse.addEventListener('click', vis)
+
 setTimeout(move(), 1000);
     // Функция, реагирующяя на попадания
     function vis(){
