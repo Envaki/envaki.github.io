@@ -272,5 +272,4 @@ setTimeout(move(), 1000);
         setTimeout(init(), 400)
     }
 
-
 /* Игра Клик по Квадрату Конец */
