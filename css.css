@@ -377,6 +377,8 @@ height: 100%;
 .prof-zagolovok {
     margin: 0;
 }
+
+/* Footer Start */ 
 .footer {
     width: 1400px;
     margin: 0 auto;
@@ -390,3 +392,37 @@ height: 100%;
     font-size: 30px;
     text-align: center;
 }
+.social_footer {
+    display: flex;
+}
+.social-footer {
+ padding: 20px;
+}
+.social_footer li {
+    list-style: none;
+}
+.social_footer a{
+    text-decoration: none;
+}
+.fa {
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-facebook:hover {
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: #166fe5;
+}
+.fa-instagram:hover {
+    color: #000;
+    background: rgb(237,231,21);
+    background: linear-gradient(90deg, rgba(237,231,21,0.9616888991924895) 0%, rgba(236,33,27,0.5387197115174195) 43%, rgba(149,49,57,1) 79%);
+}
+/* Footer END */ 
