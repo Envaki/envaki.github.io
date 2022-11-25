@@ -273,3 +273,17 @@ setTimeout(move(), 1000);
     }
 
 /* Игра Клик по Квадрату Конец */
+
+
+
+let random = document.querySelector('.random');
+let randomImg = document.querySelector('.images');
+random.addEventListener('click', randomInt);
+
+function randomInt() {
+    randomImg.innerHTML =  '<' + 'img' + ' ' + 'src' + '=' + './'+'predskaz'+ '/' + getRandomInt() + '.jpg' + ' ' + 'alt' + '=' + 'art' + '>' 
+}
+
+function getRandomInt() {
+    return Math.floor(Math.random()*64);
+}
