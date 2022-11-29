@@ -6,11 +6,16 @@
     font-weight: normal;
 }
 .dody {
-    background: #eaeaea;
-    background-size: cover;
+    background: rgb(2,0,36);
+    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,121,99,0.6731734930300245) 53%, rgba(0,212,255,1) 100%);
     margin: 0 auto;
     font-family: 'Poor Story', cursive, sans-serif;
     background-position-x: center;
+}
+.icon-cpmsd {
+    text-decoration: none;
+    color: #000;
+    font-size: 2em;
 }
 .section {
     width: 1400px;
