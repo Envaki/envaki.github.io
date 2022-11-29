@@ -6,8 +6,8 @@
     font-weight: normal;
 }
 .dody {
-    background: rgb(2,0,36);
-    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,121,99,0.6731734930300245) 53%, rgba(0,212,255,1) 100%);
+    background: rgb(154,152,190);
+background: linear-gradient(135deg, rgba(154,152,190,0.5331174706210609) 0%, rgba(90,113,110,0.6535656498927696) 53%, rgba(0,212,255,0.5247141092765231) 100%);
     margin: 0 auto;
     font-family: 'Poor Story', cursive, sans-serif;
     background-position-x: center;
