@@ -1,16 +1,19 @@
 * {
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
     box-sizing: border-box;
     line-height: 1;
     font-weight: normal;
 }
 .dody {
-    background: rgb(154,152,190);
-background: linear-gradient(135deg, rgba(154,152,190,0.5331174706210609) 0%, rgba(90,113,110,0.6535656498927696) 53%, rgba(0,212,255,0.5247141092765231) 100%);
-    margin: 0 auto;
+    background: rgb(224,216,100);
+    background: linear-gradient(180deg, rgba(224,216,100,0.32816876750700286) 4%, rgba(6,162,131,0.2637429971988795) 94%);
+    padding-top: 30px;
     font-family: 'Poor Story', cursive, sans-serif;
-    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    box-sizing: border-box;
 }
 .icon-cpmsd {
     text-decoration: none;
@@ -32,7 +35,6 @@ background: linear-gradient(135deg, rgba(154,152,190,0.5331174706210609) 0%, rgb
 .header-nav {
     display: flex;
     justify-content: space-between;
-    margin: 30px;
     padding: 10px;
 }
 .color-alll {
@@ -431,6 +433,7 @@ height: 100%;
 }
 .social_footer {
     display: flex;
+    justify-content: space-around;
 }
 .social-footer {
  padding: 20px;
