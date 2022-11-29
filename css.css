@@ -333,19 +333,24 @@ h1 {
 .secret-content-all {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    height: 100%;
 }
 
 .secret-section-one {
  display: grid;
 }
 .secret-section-two {
-
+    width: 100%;
+    height: 100%;
 }
 .content-secret_one {
     background: url(https://envaki.github.io/img/fac.png) no-repeat;
     background-size: contain;
     background-position-x: right;
     background-color: #000;
+    width: 100%;
+    height: 100%;
 }
 .content-best {
     width: 100%;
