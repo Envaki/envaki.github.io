@@ -5,6 +5,14 @@
     line-height: 1;
     font-weight: normal;
 }
+.pmsd {
+    border: 2px solid black;
+    align-items: center;
+    font-size: 25px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
 .game {
     display: flex;
     position: relative;
