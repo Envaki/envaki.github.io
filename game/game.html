@@ -7,24 +7,33 @@
     <link rel="stylesheet" href="./game.css">
     <title>Game</title>
 </head>
-<body>
-    <div>
-          <!--Игровое ПОле-->
-    <div id="field" onclick="javascript:document.forms[0].No.value++;">
+<body class="dody">
+<div>
+    <a href="../index.html">It Cpmsd повернутись</a>
+</div>
+    <div class="game">
+        <div class="game-one">
+            <!--Игровое ПОле-->
+      <div id="field" onclick="javascript:document.forms[0].No.value++;">
+      </div>
+      <!--Слой с квадратом-->
+      <div id="lay"></div>
+      <!--Поле для счета-->
+      <div id="control">
+          <form>
+              <h2>Счет</h2>
+              Попал: <br>
+              <input id="Yes">
+              Мимо: <br><input id="No">
+          </form>
+      </div>
+      </div>
+      <div class="game-two">
+          <canvas id="canvas"></canvas>
+      </div>
     </div>
-    <!--Слой с квадратом-->
-    <div id="lay"></div>
-    <!--Поле для счета-->
-    <div id="control">
-        <form>
-            <h2>Счет</h2>
-            Попал: <br>
-            <input id="Yes">
-            Мимо: <br><input id="No">
-        </form>
-    </div>
-    </div>
-    <canvas id="canvas"></canvas>
+    
+    
     <script src="./game.js"></script>
 </body>
 </html>

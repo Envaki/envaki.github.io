@@ -1,6 +1,27 @@
-#canvas {
-    height: 97%;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1;
+    font-weight: normal;
+}
+.game {
+    display: flex;
+    position: relative;
     width: 100%;
+    height: 100%;
+}
+.game-one {
+    width: 100%;
+    height: 100%;
+}
+.game-two {
+    width: 100%;
+    height: 100%;
+}
+#canvas {
+    height: 400px;
+    width: 400px;
     padding: 10px;
 }
 /* Мишень Игра */
