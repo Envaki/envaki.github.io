@@ -29,22 +29,6 @@ function onTabsClick(item) {
 document.querySelector('.menubarall').click();
 
 
-
-const btnInput = document.querySelector('.btn-parol');
-
-btnInput.addEventListener('click', parolInput)
-
-function parolInput() {
-  const inputText = document.querySelector('.parol').value;
-  const contentSecret = document.querySelector('.content-secret');
-  if (inputText == '123') {
-    contentSecret.innerHTML = 'КОнтентище! ОТкрито'
-    contentSecret.classList.remove('content-secret_one')
-  } else {
-    contentSecret.classList.add('content-secret_one')
-  }
-}
-
 const btnColorOne = document.querySelector('.color-btn-one')
 const btnColorTwo = document.querySelector('.color-btn-two')
 
