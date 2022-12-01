@@ -210,8 +210,6 @@ h1 {
 /* All class MEM END */
 .coment-one {
     display: flex;
-    height: 100%;
-    width: 100%;
 }
 .img-content-one {
     height: 100%;
@@ -229,10 +227,9 @@ h1 {
     display: flex;
     padding: 10px;
     align-items: center;
-    border: 2px solid black;
 }
 .otzuv-one {
-    
+    margin-right: 8px;
 }
 .text-profi-it span {
     font-size: 30px;
@@ -248,10 +245,8 @@ h1 {
     display: flex;
 }
 .otzuv img {
-    width: 75px;
-    height: 75px;
-    border: 2px solid;
-    border-right: none;
+    width: 222px;
+    height: 148px;
 }
 .otzuv p {
     font-size: 0.3em;
