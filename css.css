@@ -19,10 +19,34 @@ a {
     height: 100vh;
     box-sizing: border-box;
 }
+.home {
+    background: url(./img/welcome-fon.jpg) !important;
+    background-size: 100% 100% !important;
+}
+.welcome {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
 .game-link {
     color: #000;
     font-size: 2em;
     margin-left: 15px;
+}
+.it-welcom {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+}
+.info-nas {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.6em;
+}
+.onas {
+
 }
 .icon-cpmsd {
     color: #000;
@@ -119,28 +143,72 @@ h1 {
     padding: 10px;
 }
 .faq {
-    background: url(https://envaki.github.io/img/faqicon.png) no-repeat;
-    background-size: contain;
-    background-position-x: right;
+    
 }
 .center {
     text-align: center;
 }
-.home {
-    background: url(./img/homeicon.png) no-repeat;
-    background-size: contain;
-    background-position-x: right;
-}
 .info {
-    background: url(https://envaki.github.io/img/info.png) no-repeat;
-    background-size: contain;
-    background-position-x: right;
+    
 }
 .secret {
-    background: url(./img/ecret.png) no-repeat;
-    background-size: contain;
-    background-position-x: right;
+    
 }
+/* All class TEam Start */
+.team {
+    font-size: 0.4em;
+    padding: 20px;
+}
+.boss-title, .rabs-title {
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+.team img{
+    height: 243px;
+}
+.team-zaholovok {
+    padding-bottom: 20px;
+}
+.team-team {
+
+}
+.boss {
+    border: 2px solid;
+}
+.team h4 {
+    padding-bottom: 20px;
+    text-decoration: underline;
+    font-size: 1.6em;
+}
+.boss-info {
+    display: flex;
+}
+.boss_info {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.boss_info-text {
+
+}
+.rabs-info {
+    
+}
+.team-rabs {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+}
+.rabs {
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+}
+.rabs:last-child {
+    border-top: none;
+}
+/* All class Team END */
 /* All class INFO Start */
 .info-content {
     width: 100%;
@@ -254,9 +322,7 @@ h1 {
 }
 
 .idea {
-    background: url(https://envaki.github.io/img/ideabos.png) no-repeat;
-    background-size: contain;
-    background-position-x: right;
+    
 }
 .content {
     width: 100%;
