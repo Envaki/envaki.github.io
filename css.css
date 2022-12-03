@@ -10,8 +10,7 @@ a {
     text-decoration: none;
 }
 .dody {
-    background: rgb(224,216,100);
-    background: linear-gradient(180deg, rgba(224,216,100,0.32816876750700286) 4%, rgba(6,162,131,0.2637429971988795) 94%);
+    background: url(./img/fonbody.jpg);
     padding-top: 30px;
     font-family: 'Poor Story', cursive, sans-serif;
     background-repeat: no-repeat;
@@ -20,8 +19,7 @@ a {
     box-sizing: border-box;
 }
 .home {
-    background: url(./img/welcome-fon.jpg) !important;
-    background-size: 100% 100% !important;
+    
 }
 .welcome {
     width: 100%;
@@ -54,20 +52,29 @@ a {
 }
 .section {
     width: 1400px;
+    background: rgb(205,223,235);
+    background: linear-gradient(125deg, rgba(205,223,235,1) 4%, rgba(157,204,235,1) 29%, rgba(0,0,0,0.6867121848739496) 94%);
+    border-radius: 15px;
     margin: 0 auto;
-    background: #f8f8f8;
     box-shadow: 10px 10px 5px #a4a4a4;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 .header {
     width: 1400px;
     margin: 0 auto;
-    background: #f8f8f8;
+    background: rgb(205,223,235);
+    background: linear-gradient(125deg, rgba(205,223,235,1) 4%, rgba(157,204,235,1) 29%, rgba(0,0,0,0.6867121848739496) 94%);
     box-shadow: 10px 10px 5px #a4a4a4;
+    border-radius: 15px;
 }
 .header-nav {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    margin-left: 60px;
 }
 .color-alll {
     background: #eaeaea;
@@ -104,13 +111,18 @@ a {
     padding: 10px;
     cursor: pointer;
     position: relative;
+    border-radius: 15px;
     box-shadow: 10px 10px 5px #a4a4a4;
     line-height: 1em;
     -webkit-transition: width 0.5s, height 0.5s, -webkit-transform 0.5s;
-	transition: width 0.5s, height 0.5s, -webkit-transform 0.5s;
-	-o-transition: width 0.5s, height 0.5s, transform 0.5s;
-	transition: width 0.5s, height 0.5s, transform 0.5s;
-	transition: width 0.5s, height 0.5s, transform 0.5s, -webkit-transform 0.5s;
+    transition: width 0.5s, height 0.5s, -webkit-transform 0.5s;
+    -o-transition: width 0.5s, height 0.5s, transform 0.5s;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+    transition: width 0.5s, height 0.5s, transform 0.5s, -webkit-transform 0.5s;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 .menubarall:hover {
       color: red;
@@ -134,26 +146,76 @@ h1 {
     font-size: 1.9em;
     border-bottom: 3px solid;
 }
-.text-ppl_info p {
-
-}
 .anonimus {
     border-top: 2px solid black;
     text-align: center;
     padding: 10px;
 }
-.faq {
-    
-}
 .center {
     text-align: center;
 }
-.info {
-    
+/* All class Poslugi Start */
+.poslugi-title {
+    padding: 30px;
 }
-.secret {
-    
+.poslugi-title h1 {
+    font-size: 1.6em;
+    text-decoration: underline;
 }
+.poslugi-item {
+    padding: 20px;
+}
+.poslugi-item-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.poslugi-img {
+    padding: 20px;
+} 
+.poslugi-text-p h3 {
+    font-size: 0.7em;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+.poslugi-text-p p {
+    font-size: 0.5em;
+    margin: 30px 0 30px 0 ;
+}
+.poslugi-button {
+    display: flex;
+}
+.poslugi_button:last-child {
+    margin-left: 30px;
+}
+.poslugi_button {
+    height: 40px;
+    width: 115px;
+    background: transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+.poslugi_button:hover {
+    color: red;
+}
+.poslugi-text {
+    display: flex;
+    flex-direction: column;
+}
+.poslugi-img img{
+    height: 322px;
+    width: 248px;
+    border-radius: 20px;
+}
+/* All class Poslugi END */
 /* All class TEam Start */
 .team {
     font-size: 0.4em;
@@ -166,6 +228,11 @@ h1 {
 }
 .team img{
     height: 243px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 .team-zaholovok {
     padding-bottom: 20px;
@@ -174,7 +241,7 @@ h1 {
 
 }
 .boss {
-    border: 2px solid;
+    
 }
 .team h4 {
     padding-bottom: 20px;
@@ -183,6 +250,7 @@ h1 {
 }
 .boss-info {
     display: flex;
+    border-radius: 20px;
 }
 .boss_info {
     display: flex;
@@ -191,22 +259,6 @@ h1 {
 }
 .boss_info-text {
 
-}
-.rabs-info {
-    
-}
-.team-rabs {
-    display: flex;
-    padding-top: 20px;
-    flex-direction: column;
-}
-.rabs {
-    display: flex;
-    align-items: center;
-    border: 2px solid;
-}
-.rabs:last-child {
-    border-top: none;
 }
 /* All class Team END */
 /* All class INFO Start */
@@ -231,6 +283,8 @@ h1 {
 .random {
     padding: 20px;
     font-size: 0.7em;
+    background: transparent;
+    border-radius: 15px;
 }
 .button-random {
     width: 40%;
@@ -337,7 +391,6 @@ h1 {
     height: 100%;
     display: none;
     overflow: auto;
-    background: #eaeaea;
     border: 2px solid black;
     box-sizing: border-box;
 }
@@ -365,7 +418,6 @@ h1 {
     background-size: contain;
     background-position-x: right;
     border: 2px solid black;
-    background: #eaeaea;
     transform: translateX(25px);
 }
 
@@ -458,8 +510,14 @@ height: 100%;
 .footer {
     width: 1400px;
     margin: 0 auto;
-    background: #f8f8f8;
+    background: rgb(205,223,235);
+    background: linear-gradient(125deg, rgba(205,223,235,1) 4%, rgba(157,204,235,1) 29%, rgba(0,0,0,0.6867121848739496) 94%);
+    border-radius: 15px;
     box-shadow: 10px 10px 5px #a4a4a4;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 .footer-one {
     margin: 30px;
