@@ -391,7 +391,6 @@ h1 {
     height: 100%;
     display: none;
     overflow: auto;
-    border: 2px solid black;
     box-sizing: border-box;
 }
 .contentbar-active {
