@@ -1,0 +1,25 @@
+@media screen and (max-width: 1366px) {
+    .header, .section, .footer {
+        width: 90% !important;
+    }
+  }
+
+@media screen and (max-width: 1280px) {
+    .poslugi-img {
+        padding: 0 !important;
+        width: 30% !important;
+    }
+    .poslugi-img img {
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .poslugi-text {
+        width: 30% !important;
+    }
+    .poslugi-text-p p {
+        font-size: 0.3em !important;
+    }
+    .poslugi-text-p h3 {
+        font-size: 0.5em !important;
+    }
+  }
