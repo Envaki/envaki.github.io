@@ -5,6 +5,12 @@
   }
 
 @media screen and (max-width: 1280px) {
+    .dody {
+        padding-top: 10px !important;
+    }
+    .section-one {
+        margin: 10px !important;
+    }
     .poslugi-img {
         padding: 0 !important;
         width: 30% !important;
@@ -21,5 +27,25 @@
     }
     .poslugi-text-p h3 {
         font-size: 0.5em !important;
+    }
+    .social-footer {
+        padding: 10px !important;
+    }
+    .social {
+        font-size: 20px !important;
+    }
+    .fa {
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .heart, .heart::before, .heart::after {
+        height: 25px !important;
+        width: 25px !important;
+    }
+    .heart::before {
+        top: -15px !important;
+    }
+    .heart::after {
+        left: 15px !important;
     }
   }
