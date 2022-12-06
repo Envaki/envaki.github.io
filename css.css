@@ -654,3 +654,11 @@ height: 100%;
   .heart-none {
     display: none;
   }
+
+  .imagess {
+    position: absolute;
+    z-index: 999;
+    width: 500px !important;
+    height: 500px !important;
+    background: black;
+}

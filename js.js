@@ -73,3 +73,19 @@ function randomInt() {
 function getRandomInt() {
     return Math.floor(Math.random()*64);
 }
+
+let big = document.querySelectorAll('img');
+
+
+var cells = document.querySelectorAll('img');
+for(var i=0; i<cells.length;i++){
+    cells[i].addEventListener('click', selectDate);
+}
+
+function selectDate(){
+    if(this.classList.contains('imagess')){
+        this.classList.remove('imagess');
+    }else {
+        this.classList.add('imagess');
+    }
+}
