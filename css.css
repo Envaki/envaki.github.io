@@ -656,9 +656,53 @@ height: 100%;
   }
 
   .imagess {
-    position: absolute;
+    position: fixed;
     z-index: 999;
-    width: 500px !important;
-    height: 500px !important;
+    width: 80vh !important;
+    height: 80vh !important;
     background: black;
+    top: 50px;
+    left: 250px;
+}
+
+
+.zakaz {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.5970763305322129) 0%, rgba(22,22,27,0.6222864145658263) 35%, rgba(10,13,14,0.5802696078431373) 92%);
+    z-index: 9999999;
+}
+.zakaz-close {
+    position: absolute;
+    right: -55px;
+    width: 50px;
+    height: 50px;
+    background: #eaeaea;
+    border: 1px solid #eaeaea;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.zakaz-item {
+    background: rgb(175,174,201);
+    background: linear-gradient(90deg, rgba(175,174,201,0.5970763305322129) 0%, rgba(193,193,213,0.6222864145658263) 35%, rgba(202,224,231,0.5802696078431373) 92%);
+    width: 600px;
+    margin: 0 auto;
+}
+.zakaz-line-close {
+    height: 1px;
+    width: 100%;
+    background: #000;
+    transform: rotate(319deg);
+}
+.zakaz-line-close:last-child {
+    transform: rotate(225deg);
+} 
+.zakaz-form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }

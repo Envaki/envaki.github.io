@@ -38,9 +38,6 @@ btnColorTwo.addEventListener('click', colorTwo)
 
 const bodyBg = document.querySelectorAll(':scope .section .dody')
 
-console.log(bodyBg);
-
-
 function colorOne() {
     bodyBg.forEach(function(elem) {
       elem.classList.add('color-alll') 
@@ -56,12 +53,9 @@ function colorTwo() {
 
 
 
-/* function colorTwo() {
-  bodyBg.forEach(function(elem) {
-    elem.style.background = "#000"
-  });
-}
-*/
+
+
+
 let random = document.querySelector('.random');
 let randomImg = document.querySelector('.images');
 random.addEventListener('click', randomInt);
