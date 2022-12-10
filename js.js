@@ -83,3 +83,14 @@ function selectDate(){
         this.classList.add('imagess');
     }
 }
+
+
+let zakazClose = document.querySelector('.zakaz-close')
+
+zakazClose.addEventListener('click', closeZakaz)
+
+function closeZakaz() {
+  let zakaz = document.querySelector('.zakaz')
+
+  zakaz.classList.add('close');
+}
