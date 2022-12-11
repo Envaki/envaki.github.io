@@ -67,7 +67,9 @@ function randomInt() {
 function getRandomInt() {
     return Math.floor(Math.random()*64);
 }
+/* Random peredbachenna END */
 
+/* Big IMG click */
 let big = document.querySelectorAll('img');
 
 
@@ -83,7 +85,7 @@ function selectDate(){
         this.classList.add('imagess');
     }
 }
-/* Random peredbachenna END */
+/* Big IMG click  END */
 
 /* Model okno BTN */
 let zakazClose = document.querySelector('.zakaz-close')
