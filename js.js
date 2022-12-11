@@ -1,3 +1,4 @@
+/* TAB menu Content */
 const tabsBtn = document.querySelectorAll('.menubarall');
 const tabsItem = document.querySelectorAll('.contentbar');
 
@@ -25,8 +26,8 @@ function onTabsClick(item) {
     }
   })
 }
-
-document.querySelector('.menubarall').click();
+document.querySelector('.menubarall').click(); 
+/*  TAB menu Content  END*/
 
 
 const btnColorOne = document.querySelector('.color-btn-one')
@@ -54,8 +55,7 @@ function colorTwo() {
 
 
 
-
-
+/* Random peredbachenna */
 let random = document.querySelector('.random');
 let randomImg = document.querySelector('.images');
 random.addEventListener('click', randomInt);
@@ -83,8 +83,9 @@ function selectDate(){
         this.classList.add('imagess');
     }
 }
+/* Random peredbachenna END */
 
-
+/* Model okno BTN */
 let zakazClose = document.querySelector('.zakaz-close')
 
 zakazClose.addEventListener('click', closeZakaz)
@@ -104,3 +105,4 @@ for(var i=0; i<buttonZakaz.length;i++){
 function zakazButton() {
     zakaz.classList.add('open')
 }
+/* Model okno BTN END */
