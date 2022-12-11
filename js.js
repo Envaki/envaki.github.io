@@ -88,9 +88,19 @@ function selectDate(){
 let zakazClose = document.querySelector('.zakaz-close')
 
 zakazClose.addEventListener('click', closeZakaz)
+let zakaz = document.querySelector('.zakaz')
+
 
 function closeZakaz() {
-  let zakaz = document.querySelector('.zakaz')
+  zakaz.classList.remove('open');
+}
 
-  zakaz.classList.add('close');
+let buttonZakaz = document.querySelectorAll('.button-zakaz')
+
+for(var i=0; i<buttonZakaz.length;i++){
+  buttonZakaz[i].addEventListener('click', zakazButton);
+}
+
+function zakazButton() {
+    zakaz.classList.add('open')
 }

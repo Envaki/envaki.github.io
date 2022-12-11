@@ -664,15 +664,17 @@ height: 100%;
     top: 50px;
     left: 250px;
 }
-
+/* Forma zakaz*/ 
 
 .zakaz {
+    display: none;
     position: fixed;
     width: 100%;
     height: 100%;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,0.5970763305322129) 0%, rgba(22,22,27,0.6222864145658263) 35%, rgba(10,13,14,0.5802696078431373) 92%);
     z-index: 9999999;
+    padding-top: 30px;
 }
 .zakaz-close {
     position: absolute;
@@ -691,6 +693,8 @@ height: 100%;
     background: linear-gradient(90deg, rgba(175,174,201,0.5970763305322129) 0%, rgba(193,193,213,0.6222864145658263) 35%, rgba(202,224,231,0.5802696078431373) 92%);
     width: 600px;
     margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
 }
 .zakaz-line-close {
     height: 1px;
@@ -711,3 +715,119 @@ height: 100%;
 .close {
     display: none;
 }
+.open {
+    display: block;
+}
+.zakaz-form h4{
+    text-align: center;
+    font-size: 2em;
+}
+
+
+.contacts {
+	background: #fafafa;
+	color: #2b384b;
+}
+.contacts-text h2 {
+	padding-top: 51px;
+	font-size: 45px;
+	text-align: center;
+	margin: 0;
+}
+.contacts-text p {
+	margin: 0 auto;
+	width: 500px;
+	margin-top: 30px;
+	font-size: 15px;
+	text-align: center;
+}
+.contact-form {
+	text-align: center;
+	font-size: 14px;
+	color: #061e37;
+	outline: none;
+}
+.name input {
+	outline: none;
+	height: 48px;
+	border-radius: 10px;
+	border: 1px solid #000;
+	padding-left: 20px;
+	margin-left: 40px;
+}
+.mail-phon input {
+	outline: none;
+	height: 48px;
+	border-radius: 10px;
+	border: 1px solid #000;
+	padding-left: 20px;
+	margin-left: 40px;
+	}
+.name {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.mail-phon {
+	margin-bottom: 20px;
+}
+.text {
+	margin-left: 34px;
+}
+.text textarea{
+	outline: none;
+	border-radius: 10px;
+	border: 1px solid #000;
+	width: 100%;
+	height: 150px;
+	padding-left: 20px;
+	padding-top: 20px;
+	max-height: 150px;
+	min-height: 100px;
+	resize: vertical;
+}
+.form-cnopka {
+	margin: 0 auto;
+}
+.form-cnopka input {
+	
+}
+.form-items {
+	font-size: 14px;
+    margin-top: 20px;
+}
+.select-poslugi {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.select-item {
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.form-items-button {
+	width: 130px;
+	height: 48px;
+	background: #1de9b6;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+    margin-left: 30px;
+	box-shadow: 0 0 3px #000;
+} 
+
+
+input::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
+input::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
+input:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
+input:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease;}
+input:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.3s ease;}
+input:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.3s ease;}
+input:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.3s ease;}
+input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;}
+
+
+/* Forma zakaz END */ 

@@ -16,25 +16,42 @@
     <div class="zakaz">
         <div class="zakaz-item">
             <form action="#" class="zakaz-form">
+                <h4>Форма замовлення</h4>
+                <hr>
                 <div class="zakaz-close">
                     <div class="zakaz-line-close"></div>
                     <div class="zakaz-line-close"></div>
                 </div>
-                <label for="POST-name">Name:</label>
-                <input id="POST-name" type="text" name="name">
-                <label for="poslugi">Name:</label>
-                <select name="poslugi" id="poslugi">
-                    <option value="value1" selected>IT Доставка</option>
-                    <option value="value2">IT Вантажники</option>
-                    <option value="value3">IT Консультування</option>
-                    <option value="value4">IT Вмикання</option>
-                    <option value="value5">IT Налаштування серверної та кабель менеджмент</option>
-                    <option value="value6">IT Тестування ПК/Ноутбука</option>
-                    <option value="value7">IT Клінінг</option>
-                    <option value="value8">IT Тестування дивану</option>
-                </select>
-                <input type="select">
-                <input type="submit" value="Save">
+                <div class="name">
+					<input type="text" id="name" name="name" placeholder="First Name">
+					<input type="text" id="name" name="name" placeholder="Last Name">
+					</div>
+					<div class="mail-phon">
+					<input type="email" id="email" name="email" placeholder="Email">
+					<input type="tel" name="tel" placeholder="Phone">
+					</div>
+                    <div class="select-poslugi">
+                        <select class="select-item">
+                            <option value="value1" selected>IT Доставка</option>
+                            <option value="value2">IT Вантажники</option>
+                            <option value="value3">IT Консультування</option>
+                            <option value="value4">IT Вмикання</option>
+                            <option value="value5">IT Налаштування серверної та кабель менеджмент</option>
+                            <option value="value6">IT Тестування ПК/Ноутбука</option>
+                            <option value="value7">IT Клінінг</option>
+                            <option value="value8">IT Тестування дивану</option>
+                        </select>
+                    </div>
+					<div class="text">	
+						<textarea name="Message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+					</div>
+					<div class="form-cnopka">
+						<div class="form-items">
+							<input type="checkbox" name="" value="ie">
+							<label for="checkbox">subscribe to the newsletter</label>
+							<input type="submit" id="send" name="send" class="form-items-button" value="Send">	
+					</div>
+					</div>
             </form>
         </div>
     </div>
@@ -181,7 +198,7 @@
                                     </p>
                                 </div>
                                 <div class="poslugi-button">
-                                    <button class="poslugi_button">Замовити</button>
+                                    <button class="poslugi_button button-zakaz">Замовити</button>
                                     <button class="poslugi_button">Написати відгук</button>
                                 </div>
                             </div>
@@ -201,7 +218,7 @@
                                     </p>
                                 </div>
                                 <div class="poslugi-button">
-                                    <button class="poslugi_button">Замовити</button>
+                                    <button class="poslugi_button button-zakaz">Замовити</button>
                                     <button class="poslugi_button">Написати відгук</button>
                                 </div>
                             </div>
@@ -221,7 +238,7 @@
                                     </p>
                                 </div>
                                 <div class="poslugi-button">
-                                    <button class="poslugi_button">Замовити</button>
+                                    <button class="poslugi_button button-zakaz">Замовити</button>
                                     <button class="poslugi_button">Написати відгук</button>
                                 </div>
                             </div>
@@ -241,7 +258,7 @@
                                     </p>
                                 </div>
                                 <div class="poslugi-button">
-                                    <button class="poslugi_button">Замовити</button>
+                                    <button class="poslugi_button button-zakaz">Замовити</button>
                                     <button class="poslugi_button">Написати відгук</button>
                                 </div>
                             </div>
@@ -261,7 +278,7 @@
                                     </p>
                                 </div>
                                 <div class="poslugi-button">
-                                    <button class="poslugi_button">Замовити</button>
+                                    <button class="poslugi_button button-zakaz">Замовити</button>
                                     <button class="poslugi_button">Написати відгук</button>
                                 </div>
                             </div>
@@ -281,7 +298,7 @@
                                     </p>
                                 </div>
                                 <div class="poslugi-button">
-                                    <button class="poslugi_button">Замовити</button>
+                                    <button class="poslugi_button button-zakaz">Замовити</button>
                                     <button class="poslugi_button">Написати відгук</button>
                                 </div>
                             </div>
@@ -301,7 +318,7 @@
                                     </p>
                                 </div>
                                 <div class="poslugi-button">
-                                    <button class="poslugi_button">Замовити</button>
+                                    <button class="poslugi_button button-zakaz">Замовити</button>
                                     <button class="poslugi_button">Написати відгук</button>
                                 </div>
                             </div>
@@ -321,7 +338,7 @@
                                     </p>
                                 </div>
                                 <div class="poslugi-button">
-                                    <button class="poslugi_button">Замовити</button>
+                                    <button class="poslugi_button button-zakaz">Замовити</button>
                                     <button class="poslugi_button">Написати відгук</button>
                                 </div>
                             </div>
