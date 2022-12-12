@@ -30,31 +30,6 @@ document.querySelector('.menubarall').click();
 /*  TAB menu Content  END*/
 
 
-const btnColorOne = document.querySelector('.color-btn-one')
-const btnColorTwo = document.querySelector('.color-btn-two')
-
-
-btnColorOne.addEventListener('click', colorOne)
-btnColorTwo.addEventListener('click', colorTwo)
-
-const bodyBg = document.querySelectorAll(':scope .section .dody')
-
-function colorOne() {
-    bodyBg.forEach(function(elem) {
-      elem.classList.add('color-alll') 
-        console.log("+")
-  });
-}
-
-function colorTwo() {
-  bodyBg.forEach(function(elem) {
-    elem.classList.remove('color-alll')
-  });
-}
-
-
-
-
 /* Random peredbachenna */
 let random = document.querySelector('.random');
 let randomImg = document.querySelector('.images');
