@@ -675,6 +675,7 @@ height: 100%;
     background: linear-gradient(90deg, rgba(2,0,36,0.5970763305322129) 0%, rgba(22,22,27,0.6222864145658263) 35%, rgba(10,13,14,0.5802696078431373) 92%);
     z-index: 9999999;
     padding-top: 30px;
+    top: 0;
 }
 .zakaz-close {
     position: absolute;
