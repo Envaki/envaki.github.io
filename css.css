@@ -676,6 +676,7 @@ height: 100%;
     z-index: 9999999;
     opacity: 1;
     padding-top: 30px;
+    top: 0;
 }
 .zakaz-close {
     position: absolute;
