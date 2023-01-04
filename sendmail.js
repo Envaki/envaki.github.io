@@ -9,7 +9,7 @@ document.querySelector('#zakazform').addEventListener('submit', function (e) {
     
     let message = '<b> Заявка з сайта</b> \n';
 
-    message += `<b> Відправник Name:</b> ${this.name.value}` + ' ' + `${this.lastname.value}\n`;
+    message += `<b> Замовник:</b> ${this.name.value}` + ' ' + `${this.lastname.value}\n`;
    // message += `<b> Last name:</b> ${this.lastname.value} \n`;
     message += `<b> Email:</b> ${this.email.value} \n`;
     message += `<b> Послуга:</b> ${this.select.value} \n`;
