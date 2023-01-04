@@ -15,7 +15,7 @@
 <body class="dody">
     <div class="zakaz">
         <div class="zakaz-item">
-            <form action="#" class="zakaz-form">
+            <form id="zakazform" class="zakaz-form">
                 <h4>Форма замовлення</h4>
                 <hr>
                 <div class="zakaz-close">
@@ -24,27 +24,30 @@
                 </div>
                 <div class="name">
 					<input type="text" id="name" name="name" placeholder="First Name">
-					<input type="text" id="name" name="name" placeholder="Last Name">
+					<input type="text" id="name" name="lastname" placeholder="Last Name">
 					</div>
 					<div class="mail-phon">
 					<input type="email" id="email" name="email" placeholder="Email">
 					<input type="tel" name="tel" placeholder="Phone">
 					</div>
                     <div class="select-poslugi">
-                        <select class="select-item">
-                            <option value="value1" selected>IT Доставка</option>
-                            <option value="value2">IT Вантажники</option>
-                            <option value="value3">IT Консультування</option>
-                            <option value="value4">IT Вмикання</option>
-                            <option value="value5">IT Налаштування серверної та кабель менеджмент</option>
-                            <option value="value6">IT Тестування ПК/Ноутбука</option>
-                            <option value="value7">IT Клінінг</option>
-                            <option value="value8">IT Тестування дивану</option>
+                        <select name="select" class="select-item">
+                            <option value="IT Доставка" selected>IT Доставка</option>
+                            <option value="IT Вантажники">IT Вантажники</option>
+                            <option value="IT Консультування">IT Консультування</option>
+                            <option value="IT Вмикання">IT Вмикання</option>
+                            <option value="IT Налаштування серверної та кабель менеджмент">IT Налаштування серверної та кабель менеджмент</option>
+                            <option value="IT Тестування ПК/Ноутбука">IT Тестування ПК/Ноутбука</option>
+                            <option value="IT Клінінг">IT Клінінг</option>
+                            <option value="IT Тестування дивану">IT Тестування дивану</option>
                         </select>
                     </div>
 					<div class="text">	
 						<textarea name="Message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
 					</div>
+                    <div class="item-success">
+                        <div class="success">Заявка відправлена!</div>
+                    </div>
 					<div class="form-cnopka">
 						<div class="form-items">
 							<input type="checkbox" name="" value="ie">
@@ -516,6 +519,11 @@
         </div>
     </footer>
 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="js.js"></script>
+    <script src="sendmail.js"></script>
+
 </body>
 </html>
